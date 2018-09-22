@@ -1,0 +1,95 @@
+@font-face
+{
+  font-family: 'Dancing Script', cursive;
+}
+body
+{
+  font-family: 'Dancing Script';
+  color: #02010a
+}
+header
+{
+  /*padding: 1px;*/
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+}
+header h1
+{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  margin-left: 0px;
+}
+img
+{
+  box-shadow: 2px 2px #02010a;
+}
+.imagen_central
+{
+  background-color: #82c3a6;
+  padding: 5px;
+  /*overflow: hiden;*/
+}
+.imagen_central img
+{
+  width: 50%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+div [class*="secundaria"]
+{
+  flex: 1 2 100%;
+}
+.imagen_secundaria
+  {
+    background-color: #d5c75f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /*flex-flow: row nowrap;
+    overflow: hiden;*/
+  }
+  .imagen_secundaria a img
+  {
+    border: 1px solid black;
+    width: 90%;
+  }
+  #foto1
+  {
+    float: left;
+  }
+  #foto2
+  {
+    float: right;
+  }
+
+
+footer
+{
+  padding: 5px;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+footer p
+{
+  text-align: center;
+}
+/*@media screen (max-width:900px)
+{
+  .contenido
+  {
+    width: 100%;
+  }
+}
+@media screen (mix-width:901px)
+{
+  .contenido
+  {
+    width: 900px;
+  }
+}
+*/
